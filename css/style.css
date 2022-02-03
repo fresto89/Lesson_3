@@ -1,0 +1,89 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* ================================================================ */
+
+h1 {
+	color: red;
+}
+
+.img-1,
+.img-2 {
+	color: green;
+}
+
+.content.menu {
+	color: aqua;
+}
+
+h2.medium-text-1 {
+	color: blue;
+}
+
+h2 {
+	color: crimson;
+}
+
+.medium-text-2 {
+	color: darkolivegreen;
+}
+
+.level > p {
+	color: red;
+}
+
+.next-paragraph ~ p {
+	color: gold;
+}
+
+[title="link-img"] {
+	color: lawngreen;
+}
+
+span {
+	color: lightseagreen;
+}
+
+p span {
+	color: maroon;
+}
+
+.span.text {
+	color: orange;
+}
+
+[class*="number"] {
+	color: springgreen;
+}
+
+#signature {
+	color: magenta;
+}
